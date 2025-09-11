@@ -1,0 +1,32 @@
+# ---- Windows ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---- Android / Gradle ----
+.gradle/
+**/build/
+.idea/
+local.properties
+.cxx/
+.externalNativeBuild/
+*.iml
+captures/
+out/
+
+# ---- Logs y temporales ----
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ---- Binarios ----
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
