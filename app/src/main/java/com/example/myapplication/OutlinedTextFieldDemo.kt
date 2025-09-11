@@ -12,12 +12,7 @@ fun OutlinedTextFieldDemo() {
     OutlinedTextField(
         value = text,
         onValueChange = { text = it },
-        label = { Text("Ingrese un texto") }
+        label = { Text("Escribe aquí...") },  // cambiado
+        singleLine = true                     // agregado
     )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun PreviewOutlinedTextFieldDemo() {
-    OutlinedTextFieldDemo()
 }
