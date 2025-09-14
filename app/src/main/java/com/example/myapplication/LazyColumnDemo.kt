@@ -23,7 +23,7 @@ fun LazyColumnDemo() {
         items(itemsList) { item ->
             Text(
                 text = item,
-                fontSize = 24.sp   // ← versión main
+                fontSize = 18.sp   // ← versión main
             )
         }
     }
