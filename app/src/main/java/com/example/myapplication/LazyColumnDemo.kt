@@ -18,12 +18,12 @@ fun LazyColumnDemo() {
     LazyColumn(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(16.dp)   // estilo extra
+            .padding(16.dp)
     ) {
         items(itemsList) { item ->
             Text(
                 text = item,
-                fontSize = 20.sp   // aumentamos el tamaño del texto
+                fontSize = 24.sp   // ← versión main
             )
         }
     }
